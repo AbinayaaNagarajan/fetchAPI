@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #71071C;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 0.5em;
+    width: calc(33.33% - 1em);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #71071C;
+    color: white;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+form {
+    margin-top: 1em;
+}
